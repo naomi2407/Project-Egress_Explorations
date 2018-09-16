@@ -1,0 +1,29 @@
+ul {
+    font-family:"verdana", sans-serif; 
+    font-size: 20px;
+    font-weight: normal;
+    text-align:left; 
+}
+
+h1{
+    font-family:"verdana", sans-serif; 
+    color: blue;
+    font-size: 25px;
+    font-weight:bold;
+    text-align:left; 
+    padding: 35px;
+}
+.Heading{
+    font-family:"verdana", sans-serif; 
+    color: blue;
+    font-size: 50px;
+    font-weight:bold;  
+}
+.subheading1{
+font-family:"verdana", sans-serif; 
+color: blue;
+font-size: 36px;
+font-weight:normal;  
+    
+}
+
