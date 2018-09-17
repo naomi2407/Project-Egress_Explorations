@@ -5,41 +5,7 @@ ul {
     text-align:left; 
 }
 
-.container {
-    width:100%;
-}
 
-.progressbar {
-counter-reset: step;
-}
-
-.progressbar li{
-    list-style-type: none;
-    float: left;
-    width: 33.33%;
-    position: relative;
-    text-align: center;
-}
-
-.progressbar li:before {
-    content: content(step);
-    counter-increment: step;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border: 1px solid blue;
-    display: block;
-    text-align: center; 
-    margin: 0 auto 10px auto;
-    border-radius: 50%  
-}
-.progressbar li:after {
-    content: '';
-    position: absolute;
-    width:100%;
-    height: 1px, 
-}
-}
 .col-xs-12 col-sm-6{
                 float:none;
                 margin-left: 70px;
@@ -67,4 +33,10 @@ counter-reset: step;
                 color: white;
               
             }
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
             

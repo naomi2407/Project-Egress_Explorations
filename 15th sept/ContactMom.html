@@ -7,7 +7,7 @@
     <meta name="viewport" content="initial-scale=1,maximum-scale=1.0,user-scalable=no">
         
     
-    <title>Contact Anita</title>
+    <title>Contact Mom</title>
         
     <link rel="stylesheet" type="text/css" href="ContactAnita.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -47,6 +47,42 @@ li a:hover:not(.active) {
     
     
 }
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-left: 200px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+        
+input[type=submit]:hover {
+    background-color: #45a049;
+    
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+        
+        
      </style>
             
     <img class="img1" src="option2_egresslogo.png"  style="width:400px;height:178px">
@@ -57,23 +93,29 @@ li a:hover:not(.active) {
          <li><a href="#How it works">How it works</a></li>
          <li><a href="#About">About</a></li>
       </ul>
+ 
     
+   
+ <body>  
+<div>
+<form action="/action_page.php"> 
+   
 <h3> Give Access</h3>     
 <p> Upon clicking 'Give Access' below, a browser will request for camera and micophone access. Kindly choose the 'okay' button.</p>
 <button type="button" onclick="alert('Give Camera and Microphone access')">Give access</button>
  
-          
-<h3>Select the Left Camera:</h3>
-<form action="/action_page.php">
-<select name="select left camera">
+     
+ <h3> Device Setup</h3>        
+<label for= "Select Left Camera">Select Left Camera</label>
+<select id="Select Left Camera" name='Select Left Camera'>
 <option value=" Camera Rear">Camera Rear</option>
 <option value="Camera Front">Camera Front</option>
 </select>
 
 <br><br>
  
-<h3>Select Resolution</h3>
-<select name= "Select Resolution">
+<label for= "Select Resolution">Select Resolution</label>
+<select id="Select Resolution" name='Select Resolution'>
 <option value= "1920x1080">1980x1080</option>
 <option value= "1920x960">1980x960</option>
 <option value= "1280x720">1280x720</option>
@@ -81,16 +123,17 @@ li a:hover:not(.active) {
     
 <br><br>    
     
-<h3>Select the Right Camera:</h3>
-<select name="select right camera">
+<label for= "Select Right Camera">Select Right Camera</label>
+<select id="Select Right Camera" name='Select Right Camera'>
 <option value="Camera Front">Camera Front</option>
 <option value="Camera Rear">Camera Rear</option>
 </select>
     
 <br><br>
   
-<h3>Select Resolution</h3>
-<select name= "Select Resolution">
+
+<label for= "Select Resolution">Select Resolution</label>
+<select id="Select Resolution" name='Select Resolution'>
 <option value= "1920x1080">1980x1080</option>
 <option value= "1920x960">1980x960</option>
 <option value= "1280x720">1280x720</option>
@@ -98,19 +141,20 @@ li a:hover:not(.active) {
     
 <br><br>
  
-<h3>Select Microphone</h3>
-<select name="select microphone">
+<label for= "Select Microphone">Select Microphone</label>
+<select id="Select Microphone" name='Select '>
 <option value= "Internal">Internal</option>
 <option value= "External">External</option>
 </select>
     
 <br><br>
     
-<h3>Test your gloves</h3>
+<label for= "Test Your Gloves">Test Your Gloves</label>
 <p>Enable the bluetooth settings on your glove and click the button 'Run Test' to check if it works. You should feel a 10 second vibrate that indicates that your haptic feedback has been set up. </p>
 <form>
     
-<br><br>    
+<br><br> 
+
     
 <div class="container-fluid">
 </div>
@@ -127,15 +171,17 @@ li a:hover:not(.active) {
     
 <br><br>
     
+    
+   <h3> Immersion Stream Setup</h3>   
   Would you like to give your immersion stream a name?<br>
   <input type="text" name="Name">
   <br><br>
  
-<input type= "Start Immersion Stream" value= "Start Immersion Stream"> 
+<input type= "Start Immersion Stream" value= "Start Immersion Stream">    
 </form>
-    
+    </div>
 
-      <body>
+    
     
     
     
