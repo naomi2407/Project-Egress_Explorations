@@ -27,3 +27,149 @@ font-weight:normal;
     
 }
 
+.container{
+position: relative;
+}
+            
+.Heading {
+position:absolute;
+top: 300px;
+left: 1000px;
+font-size: 36px;  
+}
+ .subheading1 {
+position: absolute;
+top: 400px;
+left: 1000px;
+font-size: 24px;
+text-align: justify;
+}
+
+/*main profile picture of user*/          
+ .img2{
+   position:relative;
+margin-top: 50px;
+margin-left:50px;
+width:100%;
+height: auto;
+width: auto;
+}
+            
+/* my contacts*/
+            
+  .img3{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+                 }
+
+ .img-container {
+                position: relative;
+                width: 100%;
+                max-width: 300px;  
+            }
+            
+            .img-container{
+                float: left;
+                margin-left: 70px;
+                width:100%;
+                height:auto;
+            }
+            
+            .clearfix::after {
+                content: "";
+                clear:both;
+                display:table;
+            }
+            
+            .img-container .button1 {
+                position: absolute;
+                top: 109%;
+                left: 46.5%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: white;
+                color: blue;
+                font-size: 30px;
+                padding: 16px 100px;
+                border:3px solid blue  ;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                    }
+            .img-container .button1:hover {
+                background-color: blue;
+                color: white;
+              
+            }
+            
+            .img-container .button2 {
+                position: absolute;
+                top: 109%;
+                left: 45%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: white;
+                color: blue;
+                font-size: 30px;
+                padding: 16px 85px;
+                border:3px solid blue  ;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                    }
+            .img-container .button2:hover {
+                background-color: blue;
+                color: white;
+              
+            }
+            
+            .img-container .button3 {
+                position: absolute;
+                top: 109%;
+                left: 45%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: white;
+                color: blue;
+                font-size: 30px;
+                padding: 16px 100px;
+                border:3px solid blue  ;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                    }
+            .img-container .button3:hover {
+                background-color: blue;
+                color: white;
+              
+            }
+            
+             .img-container .button4 {
+                position: absolute;
+                top: 109%;
+                left: 45%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: white;
+                color: blue;
+                font-size: 30px;
+                padding: 16px 107px;
+                border:3px solid blue  ;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+                    }
+            .img-container .button4:hover {
+                background-color: blue;
+                color: white;
+              
+            }
+        
+footer {
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+    color: white;
+        
+
